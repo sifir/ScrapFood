@@ -1,0 +1,21 @@
+{
+  "name": "loquehay",
+  "version": "1.0.0",
+  "description": "Scrapp food",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "scrap",
+    "food",
+    "lo",
+    "que",
+    "hay"
+  ],
+  "author": "Dario y Joaco",
+  "license": "MIT",
+  "dependencies": {
+    "scrape-it": "^3.3.3"
+  }
+}
