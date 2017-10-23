@@ -10,8 +10,11 @@ const conf = {
             url: {
               selector:'a.media',
               attr: 'href'
+            },   
+            img: {
+              selector:'.img-responsive img',
+              attr: 'src'
             },
-            
             ingredients: {
                 selector: 'div.wide-card__body',
                 convert: x => x.split(',')
@@ -25,8 +28,6 @@ function callback(err, page) {
     page.recipes.forEach((each) => {
         console.log(each);
     });
-    
-    
 }
 
 // Callback interface
